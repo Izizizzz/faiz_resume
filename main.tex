@@ -1,0 +1,253 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+%\usepackage[defaultfam]{montserrat}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+% Short paragraph under a heading (no bullet), then bullets follow
+\newcommand{\resumeIntro}[1]{\item[]\small{#1 \vspace{-2pt}}}
+% Skills line at the end of a role
+\newcommand{\resumeSkills}[1]{\item[]\small{\textit{Skills: #1} \vspace{-2pt}}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge Muhammad Faiz Assariy} \\ \vspace{1pt}
+    \small +62-8969-1358-817 $|$ \href{mailto:faiz.assariy@gmail.com}{\underline{faiz.assariy@gmail.com}} $|$
+    \href{https://linkedin.com/in/faiz-assariy}{\underline{linkedin.com/in/faiz-assariy}} $|$
+    \href{https://github.com/Izizizzz}{\underline{github.com/Izizizzz}} $|$
+    \href{https://faiz.assariy.id}{\underline{faiz.assariy.id}}
+\end{center}
+
+%-----------SUMMARY-----------
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     Computer Engineering Technology graduate of IPB University with project-based experience in IoT and robotics, network administration, and R\&D. Skilled in mechatronics, 3D design, Linux server administration, computer vision, and rapid prototyping. Open to IoT, IT, R\&D, and Engineer roles.
+    }}
+ \end{itemize}
+
+\iffalse
+\section{Summary}
+
+\fi
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {IPB University | GPA 3.52/4.00}{Bogor, West Java}
+      {Bachelor of Applied Science in Computer Engineering Technology}{Aug. 2022 -- Sep. 2026}
+    \resumeSubheading
+      {MAN 14 Jakarta}{East Jakarta, DKI Jakarta}
+      {Science Major}{Aug. 2019 -- Apr 2022}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Teaching Assistant | Hardware, Software, Network, and Mechanical}{June 2023 -- August 2026}
+      {IPB University}{Bogor, West Java}
+      \resumeItemListStart
+        \resumeItem{Developed practicum modules and graded lab work, giving individual feedback on circuits, code, and results. Also, taught student about systematic root-cause approach to diagnosing hardware faults.}
+        \resumeItem{Ran $\pm$100 practicum sessions over 2 academic years for groups of 10--30 students and facilitated hands-on practicums for IPB students across 7 courses, covering ESP32 prototyping, IoT integration, and Computer Vision }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Engineering Intern}{August 2025 -- December 2025}
+      {IPB University}{Bogor, West Java}
+      \resumeItemListStart
+        \resumeItem{Wrote the ``Maintenance Guide and Schedule'' for the laboratory's workshop equipment}
+        \resumeItem{Designed an equipment borrowing SOP, now used in the laboratory's daily operation}
+        \resumeItem{Audited consumables inventory and submitted restocking requests to the laboratory}
+      \resumeItemListEnd
+
+       \resumeSubheading
+      {Research Assistant | Product Engineer}{January 2024 -- November 2025}
+      {IPB University}{Bogor, West Java}
+      \resumeItemListStart
+        \resumeIntro{Led end-to-end development of ANTRAC AI-enabled UGV, 1 of 3 IPB University's agricultural technology innovations, and designed SoltarinE: Solar Charging Station Eco Friendly.}
+        \resumeItem{Created the 3D model and assembly of the solar tracker with microcontroller-based linear actuator control}
+        \resumeItem{Coordinated a multidisciplinary team across mechanical, electronics, and software work}
+        \resumeItem{Implemented the hardware, software, and mechanical subsystems of ANTRAC}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------ORGANISATIONAL EXPERIENCE-----------
+\section{Organisational}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Staff, Software, Hardware, and Network Division}{September 2023 -- August 2024}
+      {Himavo Micro-IT, IPB University}{Bogor, West Java}
+      \resumeItemListStart
+        \resumeItem{Taught on ``Introduction to IoT with ESP32'' at SMKN 4 Bogor (25 May 2024) as a hardware instructor in the MTE (Micro Teaching Education) program. }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{UGV-Integrated Pesticide Spraying Station (Final Project)} $|$ \emph{IoT, Linux Server, Plumbing}}{2026}
+          \resumeItemListStart
+            \resumeIntro{Developed a UGV-integrated pesticide spraying station for chili anthracnose control, using a ANTRAC's Severity Index as the dosing input (published in JASTH).}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{ANTRAC, AI Anthracnose Detection Robot} $|$ \emph{Computer Vision, Mechatronics, Edge Computing}}{2026}
+          \resumeItemListStart
+            \resumeIntro{Robot Cerdas berbasis AI Deteksi penyakit Antraknosa, dirilis dalam Pengenalan Inovasi IPB pada Mei 2025}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Chili Anthracnose Detection using YOLOv8} $|$ \emph{YOLOv8, Roboflow, Jetson Nano, Python}}{2025}
+          \resumeItemListStart
+            \resumeIntro{Trained a YOLOv8 model with Roboflow and integrated it on the ANTRAC robot's Jetson Nano | Part of MBKM Research}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Fungicide Applicator Robot} $|$ \emph{Mechatronics, Embedded Systems}}{2024}
+          \resumeItemListStart
+            \resumeIntro{Led a multidisciplinary student team through requirements, mechanical layout, electronics, and microcontroller development | Part of MBKM research}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Publications and Intellectual Property}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Publication (2026)}{: Journal of Applied Science, Technology \& Humanities. Development of a pesticide spraying station for integration with the ANTRAC UGV.} \\
+     \textbf{Publication (2024)}{: E3S Web of Conferences, 577, 01011. SoltarinE: Solar charging station eco friendly as a charging solution for electric farm machinery.} \\
+     \textbf{Copyright (2025)}{: 000759678, microcontroller-based robot locomotion system for dryland agriculture (creator).} \\
+     \textbf{Patent (2024)}{: P00202406961, camera-motion control system for freshwater fish monitoring.}
+    }}
+ \end{itemize}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: Python, Anaconda, C/C++, Shell, SDLC} \\
+     \textbf{AI}{: AI Agent, AI Orchestration, YOLOv8, Fuzzy Logic} \\
+     \textbf{Embedded}{: ESP32 (Arduino Core), STM32, Arduino, Raspberry Pi, Jetson Nano, UART, Modbus, I2C, SPI, PWM} \\
+     \textbf{CAD and Fabrication}{: 3D printing, 3D CAD, Assembly Drawing, Static Stress Test, machining, welding, resin molding} \\
+     \textbf{PCB}{: PCB Design, PCB Prototyping, Soldering, SMD Soldering, Signal Integrity} \\
+     \textbf{Networking}{: Cisco, MikroTik (RouterOS), MQTT, WebSocket, TCP/IP, DHCP, DNS} \\
+     \textbf{Tools}{: VS Code, Arduino IDE, Claude Code, Jupyter Notebook, Fusion 360, Onshape, KiCad, EasyEDA, Proteus, Roboflow, Figma, WinBox, Cisco Packet Tracer, Microsoft Azure, DigitalOcean}
+    }}
+ \end{itemize}
+
+%-----------CERTIFICATION-----------
+\section{Certification}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{BNSP LSP Vokasi IPB}{: Hardware Installation Supervisor (2026 - 2029)} \\
+     \textbf{Cisco Network Academy}{: CCNAv7, CCNA Enterprise} \\
+    }}
+ \end{itemize}
+\end{document}
